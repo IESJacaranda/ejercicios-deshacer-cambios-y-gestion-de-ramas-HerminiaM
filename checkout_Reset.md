@@ -35,16 +35,16 @@ git log --oneline
 Para realizar los siguientes ejercicios debes investigar sobre los parámetros --soft --mixed y --hard del comando git reset.
 
 16. Utilizando git reset, deshaz el commit previo y devuelve los cambios al directorio de trabajo.
-git log, git reset --mixed
+git log, git reset --mixed (+codigo)
 17. Añade el fichero second.txt otra vez al área de preparación.
 git add second.txt
 18. Haz un commit con el mensaje "Trying to commit again".
 git commit -m"Trying to commit again and again"
 19. Utilizando git reset deshaz el commit previo y devuelve los cambios al área de preparación.
-git log, git reset --soft
+git log, git reset --soft (+codigo)
 20. Haz commit con el mensaje "Trying to commit again and again".
 git commit -m"Trying to commit again and again"
 21. Utilizando git reset deshaz el commit previo para que ningún cambio aparezca en el directorio de trabajo.
-git log, git reset --hard
+git log, git reset --hard (+codigo)
 22. ¡Date una palmadita en la espalda! ¡Acabas de realizar un flujo de trabajo bastante complejo de git!
     
